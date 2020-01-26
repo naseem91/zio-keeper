@@ -30,7 +30,7 @@ object Membership {
     /**
      * Receive a stream of all messages.
      */
-    def receive: ZStream[R, Error, Message]
+    def receivgite: ZStream[R, Error, Message]
 
     /**
      * Send a message to a node.
